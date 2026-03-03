@@ -4,14 +4,17 @@ import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import './index.css'
 import App from './App.tsx'
-import { store } from './store/store.ts'
+import { store } from './app/store/store.ts'
 
-createRoot(document.getElementById('root')!).render(
+const root = document.getElementById('root')
+if (!root) throw new Error('Missing #root element')
+
+createRoot(root).render(
   <StrictMode>
     <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>
     </BrowserRouter>
-  </StrictMode>
+  </StrictMode>,
 )
