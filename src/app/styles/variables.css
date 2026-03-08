@@ -15,4 +15,7 @@
   --tertiary-text: color-mix(in srgb, var(--base-black) 30%, transparent);
   --primary-background: #F8F8F8;
   --secondary-background: #DBE2E6;
+  --border: 1px solid var(--secondary-background);
+  --border-radius: 12px;
+  --transition-duration: 0.2s;
 }
