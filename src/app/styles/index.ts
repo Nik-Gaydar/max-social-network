@@ -1,0 +1,6 @@
+import './colors.scss'
+import './normalize.css'
+import './font.css'
+import './globals.css'
+import './components.scss'
+import './transitions.scss'
