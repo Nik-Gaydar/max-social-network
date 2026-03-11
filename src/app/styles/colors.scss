@@ -1,0 +1,35 @@
+:root {
+  --white: #FFF;
+  --black: #000;
+  --primary: #651FFF;
+  --primary-dark: #5218D0;
+  --primary-accent-active-like: #ff4081;
+  --secondary-accent-link: #2BA3FB;
+  --error: #FB4E4E;
+  --error-light: #FFBFBF;
+  --success: #2BC945;
+  --primary-title: #152536;
+  --secondary-title: #312C3A;
+  --primary-text: #152536;
+  --secondary-text: color-mix(in srgb, var(--black) 60%, transparent);
+  --tertiary-text: color-mix(in srgb, var(--black) 30%, transparent);
+  --primary-background: #F8F8F8;
+  --secondary-background: #DBE2E6;
+}
+
+$white: var(--white);
+$black: var(--black);
+$primary: var(--primary);
+$primaryDark: var(--primary-dark);
+$primaryAccentActiveLike: var(--primary-accent-active-like);
+$secondaryAccentLink: var(--secondary-accent-link);
+$error: var(--error);
+$errorLight: var(--error-light);
+$success: var(--success);
+$primaryTitle: var(--primary-title);
+$secondaryTitle: var(--secondary-title);
+$primaryText: var(--primary-text);
+$secondaryText: var(--secondary-text);
+$tertiaryText: var(--tertiary-text);
+$primaryBackground: var(--primary-background);
+$secondaryBackground: var(--secondary-background);
