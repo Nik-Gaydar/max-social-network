@@ -1,12 +1,12 @@
 import styles from './Text.module.scss'
 
-interface TextProps {
+interface IText {
   variant: string
-  children: string | number
+  content: string | number
 }
 
-const Text = ({ variant, children }: TextProps) => {
-  return <p className={styles[variant]}>{children}</p>
+const Text = ({ variant, content }: IText) => {
+  return <p className={styles[variant]}>{content}</p>
 }
 
 export default Text

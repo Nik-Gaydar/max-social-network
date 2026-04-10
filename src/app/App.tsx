@@ -1,5 +1,9 @@
 const App = () => {
-  return <div>App</div>
+  return (
+    <Title tag={h2} className={title}>
+      Test
+    </Title>
+  )
 }
 
 export default App
